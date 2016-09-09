@@ -2,12 +2,16 @@ alert("This is a multiple question quiz. I'll be asking you five questions and I
       
       var answer1 = prompt("Who was the first president of the United States? A)George Washington or B)Abraham Lincoln ") 
       
-      if answer1 === "A" || answer1 === "a" {
+      if (answer1 === "A" || answer1 === "a") {
         alert("Congratulations, you got that one correct! That's worth one point.")  
       }
       
-      var answer2 = prompt("Who was the first president of the United States? A)George Washington or B)Abraham Lincoln ") 
+      else {
+        alert("I'm sorry, that was incorrect. You received no                    points. Please click OK to continue.")
+      }
+/*      var answer2 = prompt("Who was the first president of the United States? A)George Washington or B)Abraham Lincoln ") 
       
       var answer3 = prompt("Who was the first president of the United States? A)George Washington or B)Abraham Lincoln ") 
       
       var answer4 = prompt("Who was the first president of the United States? A)George Washington or B)Abraham Lincoln ") 
+      */
